@@ -6,8 +6,8 @@ module.exports = function(grunt) {
     uglify: {
 
       build: {
-        src: 'js/script.js',
-        dest: 'output/script.min.js'
+        src: 'js/newsapi.js',
+        dest: 'script.min.js'
       }
     }
   });
