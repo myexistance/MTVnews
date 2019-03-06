@@ -1,0 +1,30 @@
+{
+  "name": "mtvnews-f32",
+  "version": "1.0.0",
+  "description": "group project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joon",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myexistance/SPOTIFYAPI.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "bugs": {
+    "url": "https://github.com/myexistance/SPOTIFYAPI/issues"
+  },
+  "homepage": "https://github.com/myexistance/SPOTIFYAPI#readme",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "dependencies": {}
+}
