@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News Api</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h3 class="center" style="margin-bottom:20px;">MTV news ㄴ-_-ㄱ</i></h3>
+
+      <form>
+          <div class="input-field">
+              <i class="material-icons prefix">arrow_forward</i>
+              <input type="text" id="searchquery">
+              <label>Find someting to read</label>
+          </div>
+
+          <div class="row">
+             <input type="submit" id="searchbtn" class="btn col m2 s12" value="search">
+             <input type="reset" id="searchbtn" class="btn col m2 s12 red right" value="clear"  style="margin-top:3px;">
+          </div>
+
+      </form>
+
+      <div id="loader" style="display:none;">
+        <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+      </div>
+
+      <div class="row">
+         <div id="newsResults"></div>
+      </div>
+
+
+
+
+
+   </div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/iconChanger.js"></script>
+<script src="js/newsapi.js"></script>
+
+</body>
+</html>
