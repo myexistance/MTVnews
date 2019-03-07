@@ -44,7 +44,7 @@ $(document).ready(function(){
             if(output !== ""){
               $("#newsResults").html(output);
                M.toast({
-                html: "There you go, nice reading",
+                html: "읽어봐 잼있어.",
                 classes: 'green'
               });
 
