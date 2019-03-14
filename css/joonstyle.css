@@ -32,5 +32,5 @@
    @media only screen
        and (device-width : 375px)
        and (-webkit-device-pixel-ratio : 3) {
-         h4  { font-size: 18px !important; }
+         h4  { font-size: 15px !important; }
         }
