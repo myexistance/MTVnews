@@ -29,7 +29,7 @@ $(document).ready(function(){
             let latestNews = news.articles;
 
             for(var i in latestNews){
-              output +=
+              output +=`
                 <div class="col l6 m6 s12">
                 <h4>${latestNews[i].title}</h4>
                 <img src="${latestNews[i].urlToImage}" class="responsive-img">
@@ -38,14 +38,14 @@ $(document).ready(function(){
                 <p>Published on: ${latestNews[i].publishedAt}</p>
                 <a href="${latestNews[i].url}" class="btn">Read more</a>
                 </div>
-              ;
+              `;
             }
 
 
             if(output !== ""){
               $("#newsResults").html(output);
                M.toast({
-                html: "읽어봐 잼있어.",
+                html: "Get a cup of coffee too!",
                 classes: 'green'
               });
 

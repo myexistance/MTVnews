@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 
       build: {
         src: 'js/newsapi.js',
-        dest: 'script.min.js'
+        dest: 'js/script.min.js'
       }
     }
   });

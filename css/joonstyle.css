@@ -1,20 +1,20 @@
 /* label color */
-   .input-field label {
-     color: #999999;
+   /* .input-field label {
+     color: #999999 !important;
    }
    /* label focus color */
    .input-field input[type=text]:focus + label {
-     color: #999999;
+     color: #999999 !important;
    }
    /* label underline focus color */
    .input-field input[type=text]:focus {
-     border-bottom: 1px solid #999999;
-     box-shadow: 0 1px 0 0 #999999;
+     border-bottom: 1px solid #999999 !important;
+     box-shadow: 0 1px 0 0 #999999 !important;
    }
    /* valid color */
-   .input-field input[type=text].valid {
+   /* .input-field input[type=text].valid {
      border-bottom: 1px solid #999999;
-     box-shadow: 0 1px 0 0 #000;
+     box-shadow: 0 1px 0 0 #000; */
    }
    /* invalid color */
    .input-field input[type=text].invalid {
