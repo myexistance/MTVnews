@@ -10,15 +10,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myexistance/SPOTIFYAPI.git"
+    "url": "git+https://github.com/myexistance/MTVnews.git"
   },
   "keywords": [
     "API"
   ],
   "bugs": {
-    "url": "https://github.com/myexistance/SPOTIFYAPI/issues"
+    "url": "https://github.com/myexistance/MTVnews/issues"
   },
-  "homepage": "https://github.com/myexistance/SPOTIFYAPI#readme",
+  "homepage": "https://github.com/myexistance/MTVnews#readme",
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "grunt": "^1.0.3",
