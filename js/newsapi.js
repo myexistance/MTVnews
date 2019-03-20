@@ -27,6 +27,7 @@ $(document).ready(function(){
           success: function(news){
             let output = "";
             let latestNews = news.articles;
+            console.log(latestNews);
 
             for(var i in latestNews){
               output +=`
@@ -39,6 +40,7 @@ $(document).ready(function(){
                 <a href="${latestNews[i].url}" class="btn">Read more</a>
                 </div>
               `;
+
             }
 
 
