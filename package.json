@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/myexistance/MTVnews#readme",
   "devDependencies": {
+    "minimist": ">=1.2.3",
     "bootstrap": "^4.3.1",
     "grunt": "^1.0.3",
     "grunt-contrib-uglify": "^4.0.0",
